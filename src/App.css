@@ -1,0 +1,33 @@
+.App{
+  height: 500px;
+  width: 500px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow:rgb(180, 180, 180) 5px 5px 5px 5px;
+  margin-top: 60px;
+  margin-left: 400px;
+}
+.App h1{
+  padding-top: 20px;
+}
+.App img{
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.App button{
+  padding: 10px 20px;
+  margin-top: 50px;
+}
+.rotating {
+  animation: rotating 1s ease-in-out;
+}
+
+@keyframes rotating {
+  from {
+    transform: rotateY(-360deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
